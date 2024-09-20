@@ -1,0 +1,35 @@
+.container {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.react-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-logo i img {
+  display: flex;
+  height: 200px;
+}
+.title-wrapper h1 {
+  margin-top: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 5rem;
+  background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+}
+.title-wrapper .title-text {
+  margin-top: 12px;
+
+  font-size: 1.25rem;
+  color: #8964b0;
+  font-family: "Roboto Condensed", sans-serif;
+}

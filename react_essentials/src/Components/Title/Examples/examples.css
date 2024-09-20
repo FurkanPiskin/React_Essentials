@@ -1,0 +1,48 @@
+.examples-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.examples-wrapper h3 {
+  text-align: start;
+  font-size: 24px;
+  color: gray;
+  font-weight: 600;
+}
+.examples-wrapper .buttons {
+  display: flex;
+  font-size: 15px;
+  font-weight: 300;
+  column-gap: 10px;
+}
+.examples-wrapper .buttons li button {
+  background-color: transparent;
+  color: gray;
+}
+.examples-wrapper .buttons li button.active {
+  background-color: blueviolet;
+  color: white;
+}
+.examples-wrapper .buttons li button:hover {
+}
+.explanation {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background-color: #140524;
+}
+.explanation .topic h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+.explanation .text {
+  color: gainsboro;
+  text-align: start;
+  font-size: 16px;
+}
+.explanation .code {
+  color: gainsboro;
+  text-align: start;
+  font-size: 16px;
+}
